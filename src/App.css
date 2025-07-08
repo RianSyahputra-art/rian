@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 .hero {
@@ -10,56 +11,164 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #19182d;
-  color: white;
+  background: #40e685;
+  padding-right: 10px;
+  color: rgb(0, 0, 0);
   flex-direction: column;
 }
 
 .btn {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: white;
-  color: #19182d;
+  background-color: rgb(70, 222, 131);
+  color: #000000;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s ease;
+  text-align: center;
+  border: 1px solid #000000;
 }
 
 .btn:hover{
-  background-color: #e0e0ff;
+  background-color: #72ff4f;
 }
 
 section {
   padding: 80px 20px;
-  max-width: 800px;
+  max-width: 100%;
   margin: auto;
+  max-height: 100%;
 }
 
 footer {
-  background: #19182d;
-  color: white;
+  background: #40e685;
+  color: rgb(14, 5, 5);
   text-align:center;
   padding: 20px 0;
   width: 100%;
+  border: #000000 solid 5px;
+  border-radius: 30px;
 
 }
 
 body, html, #root, .app{
   margin: 0;
   padding: 0;
-  height: 100%;
   width: 100%;
-  font-family:sans-serif;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
+  
+  
+
 }
 
 .tentang {
-  background: #19182d;
+  background: #40e685;
+  color:#000000;
+  text-align: center;
+  border: #000000 solid 5px;
+  border-radius: 30px;
+  font-size: 20px;
+ 
+ 
 }
 .kontak {
-  background: #19182d;
+  background: #40e685;
+  color:#000000;
+  text-align: center;
+  border: #000000 solid 5px;
+  border-radius: 30px;
+  font-size: 20px;
+
 }
 .proyek {
-  background: #19182d;
+  background: #40e685;
+  color:#000000;
+  text-align: center;
+  border: #000000 solid 5px;
+  border-radius: 30px;
+  font-size: 20px;
+
 }
+
+li {
+  text-align: center;
+}
+
+.app.dark {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.app.dark header {
+  background-color: #1e1e1e;
+}
+
+.app.dark nav a {
+  color: #f5f5f5;
+}
+
+.app.dark button {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+.app.dark section {
+  background-color: #1a1a1a;
+  color: #ccc;
+}
+
+.app.dark footer {
+  background-color: #1e1e1e;
+  color: #ccc;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color:  #40e685;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  padding: 12px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s, transform 0.3s;
+  border: #000000 solid 2px;
+  
+}
+
+.back-to-top:hover {
+  background-color: #72ff4f;
+  transform: scale(1.1);
+}
+
+.dark .back-to-top {
+  background-color: #333;
+  color: #fff;
+}
+
+
+
+.sosmed-icons a {
+  margin: 0 10px;
+  color: inherit;
+  transition: transform 0.3s ease;
+  
+}
+
+.dark .sosmed-icons a {
+  color: #f5f5f5;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
