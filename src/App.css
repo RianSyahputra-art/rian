@@ -15,6 +15,7 @@
   padding-right: 10px;
   color: rgb(0, 0, 0);
   flex-direction: column;
+  width: 90%;
 }
 
 .btn {
@@ -26,7 +27,7 @@
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s ease;
-  text-align: center;
+  text-align: center; 
   border: 1px solid #000000;
 }
 
@@ -36,7 +37,7 @@
 
 section {
   padding: 80px 20px;
-  max-width: 100%;
+  width: 90%;
   margin: auto;
   max-height: 100%;
 }
@@ -45,7 +46,7 @@ footer {
   background: #40e685;
   color: rgb(14, 5, 5);
   text-align:center;
-  padding: 20px 0;
+  padding: 10px 0;
   width: 100%;
   border: #000000 solid 5px;
   border-radius: 30px;
