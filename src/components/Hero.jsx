@@ -4,6 +4,7 @@ import './Hero.css';
 import FotoRian from '../assets/fotorian.png';
 import { Typewriter } from 'react-simple-typewriter';
 
+
 function Hero({ toggleDarkMode, darkMode }) {
   return (
     <section className="hero" id="hero">
