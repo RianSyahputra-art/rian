@@ -19,6 +19,8 @@
   object-fit: cover;
   box-shadow:blueviolet;
   animation: fadeIn 1s ease;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .hero-text{
@@ -46,11 +48,13 @@
 .btn {
    
     font-size: 20px;
+    
    
 }
 
 .btn:hover {
     background-color: #deeaf8;
+    transform: scale(1.05);
 }
 
 

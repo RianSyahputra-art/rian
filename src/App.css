@@ -29,14 +29,14 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: 0.3s ease;
   text-align: center; 
   border: 1px solid #000000;
- 
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
 .btn:hover{
   background-color: #72ff4f;
+  transform: scale(1.05);
 }
 
 section {
@@ -170,13 +170,17 @@ li {
 
   color: #fff;
 }
-
+.sosmed-icons a:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
 
 
 .sosmed-icons a {
   margin: 0 10px;
   color: inherit;
   transition: transform 0.3s ease;
+  transform: scale(1.05);
   
 }
 
@@ -198,6 +202,8 @@ h1, h2, h3, h4 {
 }
 .image {
   box-shadow: #000000 0px 4px 10px;
+  transform: scale(1.05);
+
 }
 .dark .tentang, .dark .kontak, .dark .proyek {
   
@@ -223,7 +229,7 @@ h1, h2, h3, h4 {
 
 /* Saat hover: efek tambah menyala */
 .text-3d-glow:hover {
-  transform: scale(1.05);
+  
   text-shadow:
     1px 1px 0 #000,
     2px 2px 0 #000,
