@@ -11,17 +11,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #40e685;
   padding-right: 10px;
   color: rgb(0, 0, 0);
   flex-direction: column;
   width: 90%;
+  background: linear-gradient(to right, #0ecb1e, #3679ec); 
+  border-radius: 30px;
+  border: #000000 solid 5px;
+
 }
 
 .btn {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: rgb(70, 222, 131);
+  background: linear-gradient(to right, #0ecb1e, #3679ec); 
   color: #000000;
   border: none;
   border-radius: 8px;
@@ -29,6 +32,7 @@
   transition: 0.3s ease;
   text-align: center; 
   border: 1px solid #000000;
+ 
 }
 
 .btn:hover{
@@ -40,6 +44,7 @@ section {
   width: 90%;
   margin: auto;
   max-height: 100%;
+  
 }
 
 footer {
@@ -50,6 +55,8 @@ footer {
   width: 100%;
   border: #000000 solid 5px;
   border-radius: 30px;
+  background: linear-gradient(to right, #0ecb1e, #3679ec); 
+  
 
 }
 
@@ -72,6 +79,7 @@ body, html, #root, .app{
   border: #000000 solid 5px;
   border-radius: 30px;
   font-size: 20px;
+  background: linear-gradient(to right, #0ecb1e, #3679ec); 
  
  
 }
@@ -82,6 +90,7 @@ body, html, #root, .app{
   border: #000000 solid 5px;
   border-radius: 30px;
   font-size: 20px;
+  background: linear-gradient(to right, #0ecb1e, #3679ec); 
 
 }
 .proyek {
@@ -91,6 +100,7 @@ body, html, #root, .app{
   border: #000000 solid 5px;
   border-radius: 30px;
   font-size: 20px;
+  background: linear-gradient(to right, #0ecb1e, #3679ec); 
 
 }
 
@@ -112,25 +122,31 @@ li {
 }
 
 .app.dark button {
-  background-color: #333;
+    background: black !important;
+
   color: #f5f5f5;
+  box-shadow: #8257f8 0px 4px 10px;
 }
 
 .app.dark section {
-  background-color: #1a1a1a;
+  background-color: black;
   color: #ccc;
+  box-shadow: #8257f8 0px 4px 10px;
+   background: black !important;
 }
 
 .app.dark footer {
-  background-color: #1e1e1e;
+   background: black !important;
+
   color: #ccc;
+  box-shadow: #8257f8 0px 4px 10px;
 }
 
 .back-to-top {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color:  #40e685;
+  background: linear-gradient(to right, #0ecb1e, #3679ec); 
   color: #000000;
   border: none;
   border-radius: 50%;
@@ -150,7 +166,8 @@ li {
 }
 
 .dark .back-to-top {
-  background-color: #333;
+   background: black !important;
+
   color: #fff;
 }
 
@@ -168,8 +185,67 @@ li {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.dark .hero{
+   background-color: #333;
+  color: #fff;
+  background: black !important;
+}
+.dark .image{
+  box-shadow: #8257f8 0px 4px 10px;
+}
+.image {
+  box-shadow: #000000 0px 4px 10px;
+}
+.dark .tentang, .dark .kontak, .dark .proyek {
+  
+  box-shadow: #8257f8 0px 4px 10px;
 }
 
+.text-3d-glow {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow:
+    1px 1px 0 #000,
+    2px 2px 0 #000,
+    3px 3px 0 #000,
+    4px 4px 0 #000,
+    5px 5px 0 #000,
+    0 0 10px #00ffff,
+    0 0 20px #00ffff,
+    0 0 30px #00ffff,
+    0 0 40px #00ffff;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
 
+/* Saat hover: efek tambah menyala */
+.text-3d-glow:hover {
+  transform: scale(1.05);
+  text-shadow:
+    1px 1px 0 #000,
+    2px 2px 0 #000,
+    3px 3px 0 #000,
+    4px 4px 0 #000,
+    5px 5px 0 #000,
+    0 0 20px #00ffff,
+    0 0 30px #00ffff,
+    0 0 50px #00ffff;
+  cursor: pointer;
+}
+
+/* Saat dark mode: ubah warna glow */
+.dark .text-3d-glow {
+  color: #ffffff;
+  text-shadow:
+    1px 1px 0 #222,
+    2px 2px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #222,
+    5px 5px 0 #222,
+    0 0 15px #8257f8,
+    0 0 25px #8257f8;
+}
 

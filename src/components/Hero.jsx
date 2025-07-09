@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-scroll';
 import './Hero.css';
 import FotoRian from '../assets/fotorian.png';
+import { Typewriter } from 'react-simple-typewriter';
 
 function Hero({ toggleDarkMode, darkMode }) {
   return (
@@ -10,10 +11,17 @@ function Hero({ toggleDarkMode, darkMode }) {
         
       </div>
             <div className="hero-container">
-                <img src={FotoRian} alt="Foto Rian Syahputra" className="hero-image" />
+                <img src={FotoRian} alt="Foto Rian Syahputra" className="image" />
                 <div className="hero-text">
-                   <h1>Hallo, Saya Rian Syahputra</h1>
-                   <p>Mahasiswa Yang Belajar React</p>
+                    <h1 className="text-3d-glow">Halo, Saya Rian Syahputra</h1>
+                   <p><Typewriter words={['Mahasiswa Yang Belajar React']}
+                       loop={0}
+                       cursor
+                       cursorStyle="_"
+                       typeSpeed={70}
+                       deleteSpeed={50}
+                       delaySpeed={1500}
+                      /></p>
                    <Link to="tentang" smooth={true} duration={500}>
                    <button className="btn">Tentang</button>
                    </Link>

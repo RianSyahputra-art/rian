@@ -3,7 +3,7 @@ import React from 'react';
 function Kontak() {
     return (
         <section className="kontak" id="kontak" data-aos="zoom-in">
-            <h2>Kontak</h2>
+            <h2 className="text-3d-glow">Kontak</h2>
             <p>Email: rian77gacor@gmail.com</p>
             <p>Instagram: rian_kinggcr</p>
             <p>GitHub: RianSyahputra-art</p>

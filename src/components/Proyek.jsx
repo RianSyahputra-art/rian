@@ -3,7 +3,7 @@ import React from 'react';
 function Proyek() {
     return(
         <section className="proyek" id="proyek" data-aos="zoom-in">
-            <h2>Proyek</h2>
+            <h2 className="text-3d-glow">Proyek</h2>
             
                 <li>To-do List App</li>
                 <p>Aplikasi mencatat tugas harian dengan React</p>
