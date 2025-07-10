@@ -52,11 +52,13 @@ footer {
   background: #40e685;
   color: rgb(14, 5, 5);
   text-align:center;
-  padding: 10px 0;
-  width: 100%;
-  border: #000000 solid 5px;
-  border-radius: 30px;
+  padding: 10px 20px;
+  width: 90%;
+  border: #000000 solid 5px; 
   background: linear-gradient(to right, #0ecb1e, #3679ec); 
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 30px;
   
 
 }
