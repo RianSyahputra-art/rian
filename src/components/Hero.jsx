@@ -40,7 +40,7 @@ function Hero({ toggleDarkMode, darkMode }) {
 
                    <button onClick={toggleDarkMode} className="btn">
           <motion.div
-    key={darkMode} // penting agar animasi jalan saat state berubah
+    key={darkMode} 
     initial={{ rotate: 180, opacity: 0 }}
     animate={{ rotate: 0, opacity: 1 }}
     transition={{ duration: 0.5 }}
