@@ -54,7 +54,7 @@
 
 .btn:hover {
     background-color: #deeaf8;
-    transform: scale(1.05);
+    transform: scale(10.05);
 }
 
 
@@ -88,4 +88,9 @@
     font-size: 14px;
     padding: 10px 20px;
   }
+}
+
+image:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
